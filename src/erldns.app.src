@@ -2,6 +2,7 @@
  [{description, "Erlang Authoritative DNS Server"},
   {vsn, "1.0.0"},
   {mod, { erldns_app, []}},
+  {registered, []},
   {applications, [kernel,
                   stdlib,
                   inets,
